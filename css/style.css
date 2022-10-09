@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: helvetica;
+    font-size: 16px;
+    font-weight: 520;
+    line-height: 24px;
+    color: #333;
+}
+.ancho {
+    max-width: 1200px;
+    margin: auto;
+}
+.nav {
+    border-bottom: 3px solid rgb(174, 173, 173);
+    padding: 20px;
+}
+.izq {
+    float: left;
+}
+.der {
+    float: right;
+    padding-top: 20px;
+}
+.logo {
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.menu {
+    width: 600px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40px;
+}
+.menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    margin-right: 10px;
+}
+.menu a:hover {
+    border-bottom: 2px black solid;
+}
+.btn_bordeazul {
+    border: 2px solid #0000FF;
+    border-radius: 12px;
+    padding: 10px 30px;
+    color: #0000FF;
+    font-weight: bold;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+.btn_bordeazul:hover {
+    background-color: #0000FF;
+    color: white;
+}
+.limpia {
+    clear: both;
+}
+.firefox {
+    width: 150px;
+    margin-top: 40px;
+}
+.rapido {
+    color: #333333;
+    font-size: 53px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.velocidad {
+    margin-top: 30px;
+}
+.btn_azul {
+    background-color: #0000FF;
+    border-radius: 8px;
+    padding: 12px 35px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+}
+.btn_azul:hover {
+    background-color: #0000ff93;
+}
+.privacidad {
+    font-size: 12px;
+    text-decoration: none;
+    margin-top: 3px;
+    color: #333;
+    display: block;
+}
+.privacidad:hover {
+    text-decoration: underline;
+}
+.btnpriv {
+    width: 200px;
+    text-align: center;
+}
+.inicio{
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+}
+.compu {
+    margin-top: 60px;
+    width: 590px;
+    display: inline-block;
+    vertical-align: top;
+}
+.dino {
+    background: #F7F7F7;
+    padding: 20px;
+    text-align: center;
+}
+.dinosaurio {
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+}
+.dino_texto {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+.dino_titulo {
+    color: #333333;
+    font-size: 46px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+.divididos {
+    text-align: center;
+}
+.impacto {
+    width: 550px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+.innovacion {
+    width: 550px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+.barra {
+    width: 50px;
+    height: 350px;
+    display: inline-block;
+    border-left: 2px rgb(221, 221, 221) solid;
+    vertical-align: middle;
+}
+
+.titulo_divid {
+    color: #333333;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.divididos a {
+    font-weight: bold;
+    color: blue;
+}
+.divididos a:hover {
+    color: rgb(88, 88, 246);
+}
+.tres {
+    text-align: center;
+}
+.card {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 95px;
+}
+.card h2 {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card img {
+    width: 100px;
+}
+.noticias {
+    text-align: center;
+}
+.news {
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 150px;
+    margin-left: 100px;
+}
+.news_form {
+    width: 400px;
+}
+.noticias_texto {
+    width: 600px;
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+.noticias_texto h2 {
+    color: black;
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.tu {
+    font-weight: bold;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+input[type=submit]:hover {
+    background-color: #555;
+}
+.envio {
+    font-size: 14px;
+    text-align: center;
+    margin-top: -7px;
+    color: #333;
+    display: block;
+}
+.footer {
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+}
